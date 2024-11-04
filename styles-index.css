@@ -1,0 +1,131 @@
+header {
+    width: 500px;
+    line-height: normal;
+}
+
+body {
+    color: darkslategray;
+    padding: 8px;
+    background-color:#ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+}
+
+h1, h2, legend {
+    font-family: Arial, Helvetica, sans-serif;
+    color: teal;
+    margin-left: 16px;
+    text-transform: uppercase;
+}
+
+a {
+    color: darkcyan;
+    text-decoration: none;    
+}
+
+a:hover{
+    color: purple;
+    text-decoration: underline;
+}
+
+.description{
+    margin-left: 16px;
+    width: 800px;
+}
+
+#ingredients ul {
+    list-style-type:square;
+    
+}
+
+#ingredients li::marker {
+    color: darkgoldenrod;
+}
+
+#ingredients{
+    border: 1px solid #c4c3c2;
+    width: 400px;
+    margin-left: 200px;
+    padding: 8px;
+    background-color: #c4c3c2;
+}
+
+#instructions{
+    width: 800px;
+}
+
+ol li {
+    padding: 8px;
+    margin-left: 32px;
+}
+
+.button {
+    border: none;
+    border-radius: 5px;
+    background-color: teal;
+    color: white;
+    padding: 8px;
+    text-align: center;
+    text-decoration:none;
+    display:flex;
+    font-size: 18px;
+    margin-left: 400px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: white;
+    color: teal;
+}
+
+button a{
+    text-decoration: none;
+    color: white;
+}
+
+button a:hover{
+    color: teal;
+    text-decoration: none;
+}
+
+aside p{
+    font-size: 12px;
+    font-style: italic;
+    margin-left: 0px;
+}
+
+address{
+    bottom: 0px; 
+    margin-top: 32px;
+    left: 400px;
+    text-align: center; 
+    font-size: 10
+}
+
+fieldset{
+    margin-top: 0px;
+    margin-left: 32px;
+    margin-bottom: 32px;
+    width: 800px; 
+    border: 1px solid #c4c3c2;
+}
+
+#recipe, #name, #email {
+    margin: 16px;
+    margin-left: 16px;
+    padding: 4px;
+    width: 300px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+
+}
+
+#ing, #inst{
+    border: 1px solid #c4c3c2;
+    width: 780px;
+    height: 200px;
+    padding: 8px;
+    background-color:#ffffff;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}

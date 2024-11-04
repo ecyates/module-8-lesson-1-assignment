@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport"content="width=device-width, initial-scale=1.0">
+    <meta name="description"content="Submit your own recipe.">
+    <meta name="keywords"content="recipe, recipes, submission form, form">
+    <meta name="author"content="Elizabeth Yates">
+    <title>Recipe Submission Form</title>
+    <link rel="stylesheet" href="styles-index.css">
+</head>
+
+<header>
+    
+    <h1>Recipe Submission Form</h1>
+    <figure>
+        <img src="cooking-banner-1280x427.jpg" alt="Cooking Banner" width="750">
+        <figcaption>Source: <a href="https://pixabay.com/photos/cooking-banner-banner-7166200/">Pixabay</a>.</figcaption>
+    </figure>
+</header>
+
+<body>
+    <h2>Add Your Recipe to Our Collection</h2>
+    <form action="thank-you.html">
+        <fieldset id="contact">
+            <legend>Contact Information</legend>
+            <label for="name">Name: </label>
+            <input type="text"id="name"name="name"placeholder="Enter your name"required><br/>
+
+            <label for="email">Email: </label>
+            <input type="email"id="email"name="email"placeholder="Enter your email"required>
+        </fieldset>       
+        <fieldset>
+            <legend>Recipe Title</legend>
+            <input type="text" name="recipe" id="recipe"placeholder="Enter your recipe's name."required>
+        </fieldset>
+        <fieldset>
+            <legend>Ingredients</legend>
+            <textarea id="ing"name="ing"placeholder="Please list your ingredients and their measurements, separated by commas."></textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Instructions</legend>
+            <textarea id="inst"name="inst"placeholder="Please list the steps in order using numbers and enter downs."></textarea>
+        </fieldset>
+        <div role="alert" aria-live="assertive" id="error-message">
+            <i>Please fill out all required fields. </i>
+        </div>
+        <button class="button" type="submit">Submit</button>
+    </form>
+</body>
+<footer>
+    <address>
+        &copy;2024 Elizabeth Yates. All rights reserved. 
+    </address>
+</footer>
+</html>

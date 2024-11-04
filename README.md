@@ -25,7 +25,7 @@ In this repository, I completed the following assignment.
 
 ### Task 1 - Create a Button
 
-Create an HTML file containing a button that links to a separate page for recipe submission. Include elements such as <button> with appropriate attributes and an anchor tag <a> to link to the submission page.
+Create an HTML file containing a button that links to a separate page for recipe submission. Include elements such as `<button>` with appropriate attributes and an anchor tag `<a>` to link to the submission page.
 
 **Expected Outcome**: Utilize button and anchor tag elements to the page to allow users to navigate to another page for additional functionality.
 
@@ -37,6 +37,6 @@ Use CSS to style the button with hover effects using pseudo-classes (:hover). En
 
 ### Task 3 - Create the Submission Form
 
-Create a separate HTML file for the recipe submission form. Include form elements such as <form>, <input> fields for recipe name, ingredients, and instructions, and a submit button <button>.
+Create a separate HTML file for the recipe submission form. Include form elements such as `<form>`, `<input>` fields for recipe name, ingredients, and instructions, and a submit button `<button>`.
 
 **Expected Outcome**: Utilize CSS elements for building forms to allow users to submit multiple data to forms.
